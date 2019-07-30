@@ -1,0 +1,19 @@
+{
+  "name": "kafka-demo",
+  "version": "1.0.0",
+  "description": "node-kafka demo",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^3.5.5",
+    "kafka-node": "^4.1.3",
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "White",
+  "license": "ISC"
+}

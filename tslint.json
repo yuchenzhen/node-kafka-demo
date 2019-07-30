@@ -1,0 +1,22 @@
+{
+  "extends": "tslint-config-klg",
+  "rules": {
+    // 下面这些都要去掉，现在没时间改，代码风格统一
+    "variable-name": false,
+    "member-ordering": false,
+    "no-empty": false,
+    "no-multi-spaces": false,
+    "jsdoc-format": false,
+    "ter-indent": false,
+    "ter-no-irregular-whitespace": false,
+    "one-variable-per-declaration": false,
+    "new-parens": false,
+    "block-spacing": false,
+    "key-spacing": ["error", { "mode": "strict" }],
+    "linebreak-style": ["error", "unix"]
+  },
+  "linterOptions": {
+    "exclude": [
+    ]
+  }
+}
