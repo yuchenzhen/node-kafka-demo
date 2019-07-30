@@ -12,6 +12,10 @@
     "@types/node": "^12.6.8"
   },
   "scripts": {
+    "producer": "ts-node src/app/KafkaProducer.ts",
+    "cunsumer": "ts-node src/app/KafkaConsumer.ts",
+    "cunsumerA": "ts-node src/app/KafkaConsumerGroup.ts",
+    "cunsumerB": "ts-node src/app/KafkaConsumerGroupSecond.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "White",
